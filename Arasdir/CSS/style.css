@@ -1,0 +1,33 @@
+#container{
+width:600px;
+margin:0 auto;
+}
+#container ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#container ul li{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100px;
+    font-size: 20px;
+    margin: 0px 15px 0 15px;
+    background-color: azure;
+    text-align: center;
+    padding: 12px;
+}
+#container .contains {
+text-align: left;
+font-size: 18px;
+display:none
+}
+.active_li{
+background-color: rgb(16, 233, 63) !important;
+}
+
+.active_p{
+    display: block !important;
+}
