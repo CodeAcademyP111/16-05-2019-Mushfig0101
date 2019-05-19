@@ -1,0 +1,39 @@
+#grandParent{
+    width: 600px;
+    margin: 0px auto;
+}
+
+
+#grandParent ul{
+    margin: 32px 0px;
+    justify-content: space-between;
+}
+
+#grandParent ul li{
+    display: inline-block;
+    margin: 0px 12px;
+    width: 100px;
+    text-align: center;
+    background-color: #9794b9;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 8px 0px;
+    color:white;
+}
+
+#grandParent .contains{
+    width: 440px;
+    line-height: 25px;
+    text-align:left;
+    border: 1px solid black;
+    padding: 10px 17px;
+    display: none;
+}
+
+.active_contain{
+    display: block !important;
+}
+
+.active_menu{
+    background-color: #0d0846 !important;
+}
